@@ -16,7 +16,7 @@ Graduate Colleges	The Graduate School and University Center	http://gc.cuny.edu	3
 Senior Colleges	Hunter College	http://hunter.cuny.edu	695 Park Avenue	New York	NY	10065-5024
 
 ```
-\d{5}-?(\d{4})?
+/\d{5}-?(\d{4})?/gm
 
 
 ### 2. BONUS Binary Challenge
